@@ -1,17 +1,58 @@
-# React Bootstrap Todo App
-Todo App with React and Bootstrap
-Demo the app on https://wraithwinterly.github.io/react-bootstrap-todo/
+# Todo App
+Todo App with Vite, React and Bootstrap
 
-Todo App built with React, Vite, and Bootstrap. Built in 1 day.
-You can add basic tasks, remove them, compelte them and remove completed tasks.
-This app does not have a backend and is for demonstration purposes only. It is using local browser storage.
+## Demo
 
-Note on commits: this app was going to be converted, however I have decided to make it its own app.
+To get the project, clone the repo
 
-# License
-This project is open source under the [MIT License](https://github.com/WraithWinterly/TasksUltra/blob/main/LICENSE).
+```
+git clone https://github.com/mattsahr/todo-example todo-example
+```
 
-# Images
-![Todo1](https://user-images.githubusercontent.com/37941646/186336309-691845b9-ef09-4673-8817-2912c3a14e92.png)
-![Todo2](https://user-images.githubusercontent.com/37941646/186336313-8e306f3b-c326-4370-b353-5dfbf982d27d.png)
-![Todo3](https://user-images.githubusercontent.com/37941646/186336330-bd94139f-e29d-4209-b967-92d378a23b69.png)
+## Pre-requisites
+
+- [NodeJS](https://nodejs.org)
+
+The app installs correctly on node version `18.16.1`
+It might work with older/newer versions of node.
+
+You can use nvm to manage various versions.
+
+https://github.com/nvm-sh/nvm
+
+[Installing nvm on Windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows#install-nvm-windows-nodejs-and-npm)
+
+
+If you plan to use NVM, you will get better results if you first **REMOVE** all versions of node.  Then install NVM, and then let NVM install specific versions that you want.
+
+```
+nvm list
+nvm install 18.16.1
+nvm use 18.16.1
+```
+
+## Installing the app
+
+CD into the directory where you installed the todo app.  And then run:
+
+```bash
+npm install
+```
+
+And then, to run the project:
+
+```bash
+npm run dev
+```
+
+
+## Built With
+
+- [Vite](https://vitejs.dev/)
+- [ReactJS](https://reactjs.org)
+- [Bootstrap](https://getbootstrap.com/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
